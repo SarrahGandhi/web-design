@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML5 Semantic Layout Tags</title>
+  </head>
+  <body>
+    <header>
+      <h1><a href="#">Fake Store</a></h1>
+      <ul>
+        <li><a href="#">Account</a></li>
+        <li><a href="#">Cart</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>  
+    <main>
+      <h2>Checkout Order #1234 - Billing and Payment</h2>
+      <p>Order total: $129.57</p>
+      <div>
+        <p>Billing information</p>
+        <label for="fname">First Name: </label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname" name="lname">
+      </div>
+    </main>
+    <form>
+    <div>
+      <label for="name">Your Name: </label>
+      <input type="text" id="name" name="name">
+    </div>
+    <div>
+      <label for="email">Your email: </label>
+      <input type="email" id="email" name="email">
+    </div> <!--to input normal form from user-->
+    <div>
+      <button type="submit" name="Submit">Submit</button>
+    </div>
+    <div>
+      <input type="radio" id="yes" name="yesno" value="yes" checked="checked">
+      <label for="yes">Yes</label>
+      <input type="radio" id="no" name="yesno" value="no">
+      <label for="no">No</label>
+    </div>
+    </form>
+
+    <!-- to input choice option or radio choice, can choose any one-->
+
+
+    <!--
+      The following is a typical site's page structure (note that this can differ a little
+      depending on the layout/content but the general idea is the same). In general, you have:
+    
+      - a site header with the site name (a link to the home page)
+      - the site menu (usually also in the header)
+      - main content
+      - a site footer (it may or may not have a site menu in it)
+      - sidebar(s) (usually in non-home pages)
+    -->
+
+    <!-- For major parts of a page where the styling will most likely have some unique parts,
+         such as a header, it's useful to give it an id (for styling purposes later). We can
+         omit it for now while you're getting a grasp of the semantic layout tags. -->
+    
+  </body>
+</html>
